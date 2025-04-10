@@ -1,4 +1,4 @@
-# Stockprice-Pnomaly-Detector
+# Stockprice-Anomaly-Detector
 # Dataset Preprocessing – Steps:
 Data Collection ,   
 Missing Value Handling ,   
