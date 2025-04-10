@@ -1,10 +1,10 @@
-# stockprice-anomaly-detector
+# Stockprice-Pnomaly-Detector
 # Dataset Preprocessing – Steps:
-Data Collection , 
-Missing Value Handling , 
-Date Parsing and Indexing , 
-Feature Selection (e.g., Close price) , 
-Reshaping and Scaling (for LSTM) , 
+Data Collection ,   
+Missing Value Handling ,   
+Date Parsing and Indexing ,   
+Feature Selection (e.g., Close price) ,   
+Reshaping and Scaling (for LSTM) ,   
 Train-Test Split (for LSTM forecasting) 
 
 # Model Selection and Rationale:
