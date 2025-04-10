@@ -1,4 +1,5 @@
 # Stockprice-Anomaly-Detector
+
 # Dataset Preprocessing – Steps:
 Data Collection ,   
 Missing Value Handling ,   
@@ -8,10 +9,12 @@ Reshaping and Scaling (for LSTM) ,
 Train-Test Split (for LSTM forecasting) 
 
 # Model Selection and Rationale:
+
 # Isolation Forest:
 Best suited for unsupervised anomaly detection in financial data.
 No labels required and efficient on large datasets.
 Identifies abnormal spikes/dips by isolating data points.
+
 # LSTM (Long Short-Term Memory):
 Powerful for time-series forecasting.
 Captures sequential dependencies in closing prices.
@@ -29,6 +32,8 @@ Overall, the key to solving all challenges was breaking the problem into small p
 
 # LSTM prediction vs actual values visualization:
 ![image](https://github.com/user-attachments/assets/eefab38e-3ecb-4b65-b93c-ca050d1e1c3d)
+
+
 
 You can check it out on:
 https://huggingface.co/spaces/usaid123/stock-anomaly-detection
