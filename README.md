@@ -22,12 +22,15 @@ While building this financial time-series anomaly detection and forecasting tool
 One of the major difficulties was understanding how to prepare time-series data properly for different models like Isolation Forest and LSTM. It was tricky to reshape the data in the format that LSTM accepts, especially with no background in deep learning.
 Another challenge was interpreting the model outputs — the LSTM predictions were coming in the form of graphs, and it wasn’t clear how to extract meaningful values like future closing prices in number form. With time and experimentation, these results were visualized better to understand the trends.
 Also, deploying the app on Hugging Face was new and challenging. Facing errors like "network error", "invalid syntax", and dependency issues made deployment frustrating. These problems were solved by carefully creating a requirements.txt file and uploading only the necessary files (app.py, requirements.txt, and model-related files).
-Overall, the key to solving all challenges was breaking the problem into small parts, learning each part slowly, and testing everything in Jupyter Notebook before moving to Streamlit and then deployment.
+Overall, the key to solving all challenges was breaking the problem into small parts, learning each part slowly, and testing everything in Jupyter Notebook before moving to Streamlit and then deployment. 
 
 # Isolation forest anomalies visualization:
 ![image](https://github.com/user-attachments/assets/3e370036-ea30-466d-afde-3b92e2176a7a)
 
 # LSTM prediction vs actual values visualization:
 ![image](https://github.com/user-attachments/assets/eefab38e-3ecb-4b65-b93c-ca050d1e1c3d)
+
+You can check it out on:
+https://huggingface.co/spaces/usaid123/stock-anomaly-detection
 
 
